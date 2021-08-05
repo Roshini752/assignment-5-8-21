@@ -1,7 +1,7 @@
 // to calculate area and circumference of a circle
 
 #include <stdio.h>
-#define pi 3.14
+#define pi 3.14    
 int main()
 {
     double c,a,d;
