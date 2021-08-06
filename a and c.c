@@ -1,10 +1,11 @@
 // to calculate area and circumference of a circle
 
 #include <stdio.h>
-#define pi 3.14    
+// #define pi 3.14    making pi as a constant by using #define
 int main()
 {
     double c,a,d;
+    const float pi=3.14; // making pi as a constant by using const 
     printf("enter the diameter value d = ");
     scanf("%lf",&d);
     c=pi*d;
